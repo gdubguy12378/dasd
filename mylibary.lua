@@ -4490,7 +4490,7 @@ function library:init()
         self.watermark = {
             objects = {};
             text = {
-                {"informant.wtf", true},
+                {"rdp initalizer", true},
                 {"V"..getgenv().Config.Version, true},
                 {getgenv().luaguardvars.DiscordName, true},
                 {'0 fps', true},
@@ -4621,11 +4621,11 @@ function library:CreateSettingsTab(menu)
     local mainSection = settingsTab:AddSection('Main', 1);
     local creditsSection = settingsTab:AddSection('Credits', 2);
     creditsSection:AddSeparator({text = 'Owners/Developers'});
-    creditsSection:AddText({text = "xz#1111"})
-    creditsSection:AddText({text = "goof#1000"})
+    creditsSection:AddText({text = "dx.rdp"})
+    creditsSection:AddText({text = "is sole dev"})
     creditsSection:AddSeparator({text = 'Helpers'});
-    creditsSection:AddText({text = "encode#9999"})
-    creditsSection:AddText({text = "Vault#5434"})
+    creditsSection:AddText({text = "other devs"})
+    creditsSection:AddText({text = "helped with errors"})
 
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
